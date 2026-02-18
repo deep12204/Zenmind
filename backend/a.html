@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<head>
+<title>AJAX Examples | vtucode</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<style>
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-color: #f4f4f9;
+}
+h1 {
+text-align: center;
+color: #333;
+padding: 20px 0;
+}
+#content {
+flex-direction: column;
+display: flex;
+max-width: 600px;
+margin: 20px auto;
+padding: 20px;
+border: 1px solid #ddd;
+border-radius: 8px;
+background-color: #fff;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+button {
+display: inline-block;
+padding: 10px 15px;
+margin: 12px;
+border: none;
+border-radius: 5px;
+background-color: #007bff;
+color: #fff;
+font-size: 16px;
+cursor: pointer;
+transition: box-shadow 0.3s;
+}
+
+</style>
+</head>
+
+<body>
+<h1>AJAX Examples</h1>
+<div id="content">
+<button id="plain-ajax-btn">Load Text (Plain AJAX)</button>
+<button id="jquery-ajax-btn">Load Text (jQuery AJAX)</button>
+<button id="jquery-json-btn">Load JSON (jQuery getJSON)</button>
+<button id="parse-json-btn">Load and Parse JSON (jQuery get)</button>
+<div id="output"></div>
+</div>
+
+<script>
+
+
+function show(text) {
+    document.getElementById("output").innerText = text;
+    document.getElementById("output").style.display = "block";
+}
+
+/* Plain AJAX */
+document.getElementById("plain-ajax-btn").onclick = function () {
+    var xhr = new XMLHttpRequest();
+    xhr.open("GET", "textfile.txt", true);
+    xhr.onload = function () {
+        show(xhr.status == 200 ? xhr.responseText : "Error loading file");
+    };
+    xhr.send();
+};
+
+/* jQuery AJAX */
+$("#jquery-ajax-btn").click(function () {
+    $.get("textfile.txt", function (data) {
+        show(data);
+    }).fail(function () {
+        show("Error loading text file");
+    });
+});
+
+/* getJSON */
+$("#jquery-json-btn").click(function () {
+    $.getJSON("data.json", function (data) {
+        show(JSON.stringify(data, null, 2));
+    }).fail(function () {
+        show("Error loading json file");
+    });
+});
+
+/* parseJSON */
+$("#parse-json-btn").click(function () {
+    $.get("data.json", function (data) {
+        let jsonData = (typeof data === "string") ? JSON.parse(data) : data;
+        show(JSON.stringify(jsonData, null, 2));
+    }).fail(function () {
+        show("Error loading json file");
+    });
+});
+
+
+</script>
+</body>
+</html>

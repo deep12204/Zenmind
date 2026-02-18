@@ -1,0 +1,51 @@
+{
+  "rice": { "calories": 130, "protein": 2.7, "carbs": 28, "fat": 0.3, "unit": "1 cup", "category": "north indian" },
+  "brown rice": { "calories": 111, "protein": 2.6, "carbs": 23, "fat": 0.9, "unit": "1 cup", "category": "healthy" },
+
+  "dal": { "calories": 120, "protein": 9, "carbs": 20, "fat": 2, "unit": "1 cup", "category": "north indian" },
+  "rajma": { "calories": 190, "protein": 9, "carbs": 33, "fat": 1, "unit": "1 cup", "category": "north indian" },
+  "chole": { "calories": 260, "protein": 12, "carbs": 30, "fat": 8, "unit": "1 cup", "category": "north indian" },
+  "paneer butter masala": { "calories": 380, "protein": 12, "carbs": 18, "fat": 28, "unit": "1 cup", "category": "north indian" },
+  "butter naan": { "calories": 300, "protein": 8, "carbs": 45, "fat": 10, "unit": "1 piece", "category": "north indian" },
+  "roti": { "calories": 100, "protein": 3, "carbs": 18, "fat": 1.5, "unit": "1 piece", "category": "north indian" },
+  "paratha": { "calories": 250, "protein": 5, "carbs": 30, "fat": 12, "unit": "1", "category": "north indian" },
+
+  "idli": { "calories": 60, "protein": 2, "carbs": 12, "fat": 0.5, "unit": "1 idli", "category": "south indian" },
+  "dosa": { "calories": 168, "protein": 3.5, "carbs": 25, "fat": 5, "unit": "1 dosa", "category": "south indian" },
+  "masala dosa": { "calories": 300, "protein": 6, "carbs": 35, "fat": 14, "unit": "1 dosa", "category": "south indian" },
+  "upma": { "calories": 190, "protein": 5, "carbs": 30, "fat": 6, "unit": "1 cup", "category": "south indian" },
+  "poha": { "calories": 140, "protein": 2.7, "carbs": 27, "fat": 4, "unit": "1 plate", "category": "south indian" },
+  "sambar": { "calories": 80, "protein": 3, "carbs": 11, "fat": 3, "unit": "1 cup", "category": "south indian" },
+  "vada": { "calories": 310, "protein": 6, "carbs": 24, "fat": 20, "unit": "1 piece", "category": "south indian" },
+
+  "bhindi fry": { "calories": 140, "protein": 3, "carbs": 12, "fat": 9, "unit": "1 cup", "category": "north indian" },
+  "aloo sabzi": { "calories": 220, "protein": 3, "carbs": 30, "fat": 10, "unit": "1 cup", "category": "north indian" },
+
+  "milk": { "calories": 103, "protein": 8, "carbs": 12, "fat": 2.4, "unit": "1 cup", "category": "dairy" },
+  "curd": { "calories": 98, "protein": 11, "carbs": 3, "fat": 4, "unit": "1 cup", "category": "dairy" },
+  "paneer": { "calories": 265, "protein": 18, "carbs": 6, "fat": 20, "unit": "100g", "category": "dairy" },
+
+  "egg": { "calories": 78, "protein": 6, "carbs": 0.6, "fat": 5, "unit": "1 egg", "category": "protein" },
+  "boiled chicken": { "calories": 165, "protein": 31, "carbs": 0, "fat": 3.6, "unit": "100g", "category": "protein" },
+
+  "oats": { "calories": 150, "protein": 6, "carbs": 27, "fat": 3, "unit": "1 cup", "category": "healthy" },
+  "quinoa": { "calories": 222, "protein": 8, "carbs": 39, "fat": 3.6, "unit": "1 cup", "category": "healthy" },
+  "smoothie (fruit)": { "calories": 180, "protein": 3, "carbs": 35, "fat": 2, "unit": "1 glass", "category": "healthy" },
+
+  "veg biryani": { "calories": 350, "protein": 7, "carbs": 55, "fat": 10, "unit": "1 cup", "category": "north indian" },
+  "chicken biryani": { "calories": 480, "protein": 20, "carbs": 55, "fat": 18, "unit": "1 cup", "category": "north indian" },
+
+  "pizza": { "calories": 285, "protein": 12, "carbs": 36, "fat": 10, "unit": "1 slice", "category": "junk" },
+  "burger": { "calories": 350, "protein": 15, "carbs": 40, "fat": 15, "unit": "1 burger", "category": "junk" },
+  "french fries": { "calories": 312, "protein": 3.4, "carbs": 41, "fat": 15, "unit": "1 small serving", "category": "junk" },
+  "pani puri": { "calories": 329, "protein": 4.5, "carbs": 54, "fat": 10.5, "unit": "6 pieces", "category": "street food" },
+  "samosa": { "calories": 260, "protein": 3, "carbs": 24, "fat": 17, "unit": "1 piece", "category": "street food" },
+  "pakoda": { "calories": 315, "protein": 6, "carbs": 22, "fat": 22, "unit": "6 pieces", "category": "street food" },
+
+  "coke": { "calories": 140, "protein": 0, "carbs": 39, "fat": 0, "unit": "can", "category": "beverage" },
+  "chai": { "calories": 90, "protein": 2, "carbs": 12, "fat": 3, "unit": "1 cup", "category": "beverage" },
+  "coffee (milk + sugar)": { "calories": 110, "protein": 2, "carbs": 14, "fat": 4, "unit": "1 cup", "category": "beverage" },
+  "biscuit": { "calories": 140, "protein": 2, "carbs": 21, "fat": 7, "unit": "3 biscuits", "category": "packaged snack" },
+  "oreo": { "calories": 140, "protein": 2, "carbs": 21, "fat": 7, "unit": "3 biscuits", "category": "packaged snack" },
+  "lays chips": { "calories": 160, "protein": 2, "carbs": 15, "fat": 10, "unit": "1 packet", "category": "packaged snack" }
+}

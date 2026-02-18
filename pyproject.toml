@@ -1,0 +1,20 @@
+[project]
+name = "mental-health-chatbot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.116.1",
+    "pydantic>=2.11.7",
+    "requests>=2.32.5",
+    "streamlit>=1.49.1",
+    "uvicorn>=0.35.0",
+    "python-dotenv>=1.0.0",
+    "langchain-openai>=0.2.0",
+    "langchain-tavily>=0.1.0",
+    "langchain-community>=0.3.0",
+    "langchain-groq>=0.1.0",
+    "langgraph>=0.2.0",
+    "langchain-core>=0.3.0",
+]
