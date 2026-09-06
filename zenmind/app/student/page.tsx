@@ -32,7 +32,7 @@ export default function BreathingExercisePage() {
           />
           <h2 className="text-xl font-semibold mb-2">Questionnaire</h2>
           <p className="text-gray-900 text-center mb-4">
-            Understand your mental health better with a short quiz..
+            Understand your mental health better with a short quiz.
           </p>
           <QuestionnaireButton />
         </motion.div>
